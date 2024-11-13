@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Laptop, Book, DollarSign, Clock, Users, Award, ThumbsUp, CheckIcon } from "lucide-react"
+import { Laptop, Book, DollarSign, Clock, Users, Award, ThumbsUp, CheckIcon,Mail ,Phone } from "lucide-react"
 import Link from "next/link"
 import ThemeButton from "@/components/ThemeButton"
 import { ThemeProvider } from "@/components/ThemeProvider"
