@@ -18,6 +18,18 @@ const poppinsBold = localFont({
 export const metadata = {
   title: "Project Hub",
   description: "Students Life made easy.",
+openGraph: {
+    title: 'Project Hub',
+    description: 'High-quality, affordable college projects delivered on time.',
+    images: [
+      {
+        url: '/logo.png',
+        alt: 'Logo',
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
