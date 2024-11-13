@@ -186,7 +186,7 @@ export default function LandingPage() {
                   <Mail className="h-10 w-10 mb-2 text-primary" />
                   <h3 className="text-xl font-bold">Email</h3>
                   <a href="mailto:projecthubbusiness@gmail.com" className="text-gray-500 dark:text-gray-400 hover:underline">
-                    contact@projectpro.com
+                    projecthubbusiness@gmail.com
                   </a>
                 </div>
                 <div className="flex flex-col items-center space-y-2 text-center">
