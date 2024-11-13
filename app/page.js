@@ -178,6 +178,27 @@ export default function LandingPage() {
               </div>
             </div>
           </section>
+<section id="contact-info" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+            <div className="container px-4 md:px-6">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">Contact Us</h2>
+              <div className="grid gap-10 sm:grid-cols-2 items-center justify-center max-w-3xl mx-auto">
+                <div className="flex flex-col items-center space-y-2 text-center">
+                  <Mail className="h-10 w-10 mb-2 text-primary" />
+                  <h3 className="text-xl font-bold">Email</h3>
+                  <a href="mailto:projecthubbusiness@gmail.com" className="text-gray-500 dark:text-gray-400 hover:underline">
+                    contact@projectpro.com
+                  </a>
+                </div>
+                <div className="flex flex-col items-center space-y-2 text-center">
+                  <Phone className="h-10 w-10 mb-2 text-primary" />
+                  <h3 className="text-xl font-bold">Phone</h3>
+                  <a href="tel:+1234567890" className="text-gray-500 dark:text-gray-400 hover:underline">
+                    +91 7775858902 / +91 78881 24630
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
         </main>
         <footer className="flex flex-col sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
           <p className="text-xs text-gray-500 dark:text-gray-400">© {new Date().getFullYear()} Project Hub</p>
