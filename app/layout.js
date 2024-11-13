@@ -26,9 +26,15 @@ openGraph: {
         url: '/logo.png',
         alt: 'Logo',
         width: 1200,
-        height: 630,
+        height: 1200,
       },
     ],
+  },
+twitter: {
+    card: 'summary_large_image',
+    title: 'Project Hub',
+    description: 'High-quality, affordable college projects delivered on time.',
+    images: ['/logo.png'],
   },
 };
 
