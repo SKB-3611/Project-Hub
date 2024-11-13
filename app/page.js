@@ -191,12 +191,14 @@ export default function LandingPage() {
                 </div>
                 <div className="flex flex-col items-center space-y-2 text-center">
                   <Phone className="h-10 w-10 mb-2 text-primary" />
-                  <h3 className="text-xl font-bold">Phone</h3>
+                  <h3 className="text-xl font-bold">Phone</h3
+<div class name="flex gap-2">
                   <a href="tel:+91 7775858902" className="text-gray-500 dark:text-gray-400 hover:underline">
                     +91 7775858902 </a> /
 <a href="tel:+91 78881 24630" className="text-gray-500 dark:text-gray-400 hover:underline">
                      +91 78881 24630
                   </a>
+</div>
                 </div>
               </div>
             </div>
