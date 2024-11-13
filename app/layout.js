@@ -23,7 +23,7 @@ openGraph: {
     description: 'High-quality, affordable college projects delivered on time.',
     images: [
       {
-        url: '/logo.png',
+        url: '/card.jpg',
         alt: 'Logo',
         width: 1200,
         height: 1200,
@@ -34,7 +34,7 @@ twitter: {
     card: 'summary_large_image',
     title: 'Project Hub',
     description: 'High-quality, affordable college projects delivered on time.',
-    images: ['/logo.png'],
+    images: ['/card.jpg'],
   },
 };
 
