@@ -12,10 +12,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   const navItems = [
-    { href: "#features", label: "Features" },
-    { href: "#about", label: "About Us" },
-    { href: "#service", label: "Services" },
-    { href: "#contact", label: "Contact" },
+    { href: "/#features", label: "Features" },
+    { href: "/#about", label: "About Us" },
+    { href: "/#service", label: "Services" },
+    { href: "/#contact", label: "Contact" },
+    {href:"/projects",label:"Projects"}
   ]
 
   const NavLinks = ({ mobile = false }) => (
@@ -37,7 +38,7 @@ const Navbar = () => {
 
   return (
     <header className="px-4 lg:px-6 h-16 flex items-center sticky top-0 w-full z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 justify-between">
-      <Link className="flex items-center justify-center" href="#">
+      <Link className="flex items-center justify-center" href="/">
         <Image src="/logo.png" alt="ProjectPro Logo" width={50} height={50} className='dark:invert w-10 h-10 lg:w-12 lg:h-12 ' />
         <h1 className="text-foreground lg:text-2xl text-lg ml-2">ProjectHub</h1>
       </Link>

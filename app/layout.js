@@ -1,6 +1,9 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import next from "next";
+import Navbar from "@/components/Navbar";
+import { ThemeProvider } from "@/components/ThemeProvider";
+import Footer from "@/components/Footer";
 
 const poppinsRegular = localFont({
   src: "./fonts/Poppins/Poppins-Regular.ttf",
@@ -43,8 +46,17 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body suppressHydrationWarning={true}
         className={`${poppinsBold.variable} ${poppinsRegular.variable} antialiased`}
-      >
+      >   <ThemeProvider
+      attribute="class"
+      defaultTheme="system"
+      enableSystem
+      disableTransitionOnChange
+    >
+                <Navbar />
+
        {children}
+       <Footer/>
+       </ThemeProvider>
       </body>
     </html>
   );
