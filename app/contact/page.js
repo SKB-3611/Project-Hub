@@ -44,9 +44,9 @@ export default function ContactUs() {
               </div>
               <div>
                 <p className="font-medium">Phone</p>
-                <div className="flex flex-wrap">
+                <div className="flex flex-wrap gap-2">
                 <a href="tel:+917775858902" target="_blank" className="text-sm text-muted-foreground">+91 7775858902</a>
-                <span className="mx-2">/</span>
+                <span className=" hidden min-[425px]:inline">/</span>
                 <a href="tel:+917888124630" target="_blank" className="text-sm text-muted-foreground block sm:inline-block">+91 7888124630</a>
                 </div>
               </div>
@@ -57,10 +57,10 @@ export default function ContactUs() {
               </div>
               <div>
                 <p className="font-medium">WhatsApp</p>
-                <div className="flex flex-wrap">
+                <div className="flex flex-wrap gap-2">
                     
                 <a href="https://wa.me/917775858902" target="_blank" className="text-sm text-muted-foreground">+91 7775858902 </a>
-                <span className="mx-2">/</span>
+                <span className=" hidden min-[425px]:inline">/</span>
     
                 <a href="https://wa.me/917888124630" target="_blank" className="text-sm text-muted-foreground">+91 7888124630</a>
                 </div>
