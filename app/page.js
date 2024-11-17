@@ -41,7 +41,7 @@ const router = useRouter();
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                  <Button className="w-full sm:w-auto" onClick={scrollToContact}>Get Started</Button>
+                  <Button className="w-full sm:w-auto" onClick={()=>router.push("/contact")}>Get Started</Button>
                   <Button variant="outline" className="w-full sm:w-auto" onClick={()=>router.push("/projects")} >Projects</Button>
                     
                 </div>
@@ -232,7 +232,7 @@ const router = useRouter();
                       ))}
                     </ul>
                     <Button
-                    onClick={scrollToContact}
+                    onClick={()=>router.push("/contact")}
                       className={`mt-auto ${
                         service.isPrimary
                           ? "bg-primary-foreground text-primary hover:bg-primary-foreground/90"
